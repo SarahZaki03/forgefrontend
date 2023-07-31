@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#root, .app{
+  width: 100%;
+  height: 100%;
+}
+
+.fit-width{
+  width: 90%;
+}
+
+.full-width{
+  width: 100%;
+}
+.light-shadow{
+  box-shadow: 0px 2px 2px 0px #bcbcbc78;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details{
+  width: 20%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.btn-hover-underline{
+    background: linear-gradient(90deg, white 98%,  transparent 98%);
+    background-size: 0 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: all 0.3s;
+}
+
+.btn-hover-underline:hover, .active-menu-item{
+  background-size: 100% 2px;
+}
+
+
+.map-btn{
+  border-radius: 25px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.active-rounded-btn{
+  border: 1px solid;
+  color: white;
+  background-color: rgb(60, 60, 157);
+}
+
+.pdf-section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+}
+
+/* Login Form */
+.login-form{
+  max-width: 550px;
+  min-height: 300px;
+  margin: auto;
+  padding: 35px;
+}
+
+/* Menu Component */
+.middle-block{
+  width: 80%;
+  padding: 20px;
+}
+
+/* Search Bar */
+.number-input{
+  border: none;
+  font-weight: 700;
+  max-width: 125px;
+}
+.number-input::placeholder{
+  color: navy;
+}
+.number-input:focus{
+  border: none;
+  color: grey;
+}
+.r-m-2{
+  margin-right: 1rem;
+}
+
+
